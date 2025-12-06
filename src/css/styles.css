@@ -113,20 +113,18 @@ button:hover {
 .load-more-btn {
   display: block;
   margin: 32px auto;
-
-  border-radius: 8px;
   padding: 8px 16px;
+  border-radius: 8px;
   border: none;
   background-color: #4e75ff;
-  display: flex;
-  justify-content: center;
-
-  font-weight: 500;
-  font-size: 16px;
-
-  line-height: 1.5;
-  letter-spacing: 0.04em;
   color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.load-more-btn.is-hidden {
+  display: none;
 }
 
 .load-more-btn:hover {
